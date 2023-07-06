@@ -1,32 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
-.header {
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-top: 51px;
+    width: 1016px;
+    margin-left: 375px;
 }
 
-.header__logo {
+.header__logo__link {
     margin-top: 40px;
-    margin-left: 375px;
+    margin-bottom: 143px;
 }
 
 
 .header__links {
+    display: flex;
     margin-top: 51px;
     margin-left: 346px;
+    height: 50px;
 }
 
-.header__link__1 {
-    padding-right: 30px;
+.header__link__home {
+    padding: 15px 15px;
     text-decoration: none;
-    font-size: 14px;
     font-family: Gilroy-SemiBold;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -34,7 +35,7 @@
 }
 
 .header__link {
-    padding-right: 30px;
+    padding: 15px 15px;
     text-decoration: none;
     font-size: 14px;
     font-family: Gilroy-SemiBold;
@@ -46,13 +47,11 @@
 
 .top__content {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    margin-bottom: 200px;
 }
 
 .title {
     margin-left: 373px;
-    margin-top: 89px;
     margin-bottom: 17px;
     color: #000;
     font-size: 60px;
@@ -64,12 +63,17 @@
 
 .text {
     margin-left: 373px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
 }
 
 .button__start {
-    margin-top: 37px;
     margin-left: 375px;
-    margin-bottom: 162px;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88,   34, 0.20);
@@ -88,7 +92,6 @@
 }
 
 .button__watch {
-    margin-top: 52px;
     margin-left: 72px;
     text-decoration: none;
     color: #AAA;
@@ -100,19 +103,15 @@
 }
 
 .top__image {
-    margin-top: 94.71px;
     margin-left: 40.94px;
     width: 544.814px;
     height: 374.843px;
-    flex-shrink: 0;
 }
 
 .top__logo {
-    margin-top: 97px;
+    width: 1200px;
     margin-bottom: 96px;
     margin-left: 345px;
-}
-
-.top__logo__img {
-    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
 }
