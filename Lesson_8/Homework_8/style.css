@@ -15,7 +15,7 @@
 .header__logo__link {
     /* background-color: #ff000021; */
     margin-top: 51px;
-    margin-bottom: 143px;
+    margin-bottom: 90px;
     margin-right: 326px;
 }
 
@@ -58,6 +58,7 @@
 
 .title {
     /* background-color: #ff03032f; */
+    padding-top: 60px;
     margin-left: 373px;
     margin-bottom: 17px;
     color: #000;
