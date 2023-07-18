@@ -40,7 +40,6 @@ body {
 
 .top-content {
     display: flex;
-    position: relative;
     max-height: 764px;
     background-color: #F1E4E6;
     margin-bottom: 65px;
@@ -48,6 +47,11 @@ body {
 
 .top-content-img {
     max-width: 100%;
+}
+
+.top-content-left{
+    display: flex;
+    align-items: flex-end;
 }
 
 .top-content-right {
@@ -294,12 +298,13 @@ and (max-width: 1024px) {
         margin-right: 17px;
     }
 
-    .top-img {
-        min-width: 386px;
-    }
-
     .top-content-right {
         margin-left: 39px;
+        margin-right: 4.4%;
+    }
+
+    .top-content-text-big {
+        font-size: 44px;
     }
 
     .top-content-text-small {
