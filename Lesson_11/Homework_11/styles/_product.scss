@@ -1,0 +1,150 @@
+.breadcrumbs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 148px;
+    background-color: #f8f3f4;
+
+    &__left {
+        display: flex;
+        margin-left: 230px;
+    }
+
+    &__title {
+        color: #f16d7f;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__right {
+        display: flex;
+        gap: 8px;
+        margin-right: 230px;
+    }
+
+    &__home,
+    &__men {
+        color: #636363;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__new_arrivals {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.product__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    height: 777px;
+    border: solid 1px #EAEAEA;
+    margin-bottom: -65px;
+
+    &__img {
+        height: 724px;
+    }
+}
+
+.product__mid {
+    align-items: center;
+    background-color: #FFF;
+    height: 600px;
+    border: solid 1px #EAEAEA;
+
+    &__title {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 12px;
+    }
+
+    &__reactangle {
+        width: 63px;
+        border: solid 1.6px #EF5B70;
+        margin-bottom: 12px;
+    }
+
+    &__name {
+        color: #4D4D4D;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 48px;
+    }
+
+    &__text {
+        color: #5E5E5E;
+        text-align: center;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 555px;
+        margin-bottom: 32px;
+    }
+
+    &__price {
+        color: #EF5B70;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 65px;
+    }
+
+    &__line {
+        width: 640px;
+        border: solid 1px #EAEAEA;
+        margin-bottom: 65px;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 42px;
+        margin-bottom: 48px;
+    }
+
+    &__button {
+        height: 48px;
+        width: 212px;
+        border: solid 1px #FF6A6A;
+        display: flex;
+
+        &__img {
+            padding-top: 6px;
+            padding-left: 24px;
+            padding-right: 23px;
+        }
+
+        &__text {
+            color: #F26376;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-top: 14px;
+        }
+    }
+}
