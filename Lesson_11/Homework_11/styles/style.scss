@@ -42,6 +42,8 @@ a {
 
 @import 'product';
 
+@import 'catalog';
+
 .top__content {
     display: flex;
     max-height: 764px;
@@ -182,6 +184,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 48px;
 
         &__big {
             color: #222;
@@ -202,8 +205,34 @@ a {
         }
     }
 
+    &__link {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 60px;
+        width: 212px;
+        height: 48px;
+        border: 1px solid;
+        border-color: #ff6a6a;
+
+        &__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 212px;
+            height: 48px;
+            color: #f26376;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            background: transparent;
+        }
+    }
+
     &__container {
-        margin-top: 48px;
         margin-bottom: 48px;
         display: flex;
         justify-content: center;
@@ -241,7 +270,6 @@ a {
                 font-style: normal;
                 font-weight: 300;
                 line-height: normal;
-            }
 
             &__price {
                 padding-left: 16.46px;
@@ -255,31 +283,9 @@ a {
         }
     }
 
-    .bott__content__link {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 60px;
-        width: 212px;
-        height: 48px;
-        border: 1px solid;
-        border-color: #ff6a6a;
-    }
+    
 
-    .bott__content__link__text {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        width: 212px;
-        height: 48px;
-        color: #f26376;
-        font-family: Lato;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        background: transparent;
+    
     }
 }
 
@@ -458,6 +464,7 @@ a {
     }
 }
 
-@import "tablet";
 
-@import "mobile";
+@import 'tablet';
+
+@import 'mobile';

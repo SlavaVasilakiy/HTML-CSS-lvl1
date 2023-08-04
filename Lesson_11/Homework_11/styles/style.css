@@ -172,6 +172,24 @@ a {
   padding-top: 14px;
 }
 
+.filter-sort {
+  display: flex;
+  margin-top: 51px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.filter {
+  width: 360px;
+  background-color: white;
+  position: absolute;
+}
+.filter__summary {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
 .top__content {
   display: flex;
   max-height: 764px;
@@ -299,6 +317,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 48px;
 }
 .bott__content__text__big {
   color: #222;
@@ -316,8 +335,32 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+.bott__content__link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 212px;
+  height: 48px;
+  border: 1px solid;
+  border-color: #ff6a6a;
+}
+.bott__content__link__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 212px;
+  height: 48px;
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+}
 .bott__content__container {
-  margin-top: 48px;
   margin-bottom: 48px;
   display: flex;
   justify-content: center;
@@ -354,7 +397,7 @@ a {
   font-weight: 300;
   line-height: normal;
 }
-.bott__content__container__box__price {
+.bott__content__container__box__text__price {
   padding-left: 16.46px;
   color: #f16d7f;
   font-family: Lato;
@@ -362,31 +405,6 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-.bott__content .bott__content__link {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 60px;
-  width: 212px;
-  height: 48px;
-  border: 1px solid;
-  border-color: #ff6a6a;
-}
-.bott__content .bott__content__link__text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  width: 212px;
-  height: 48px;
-  color: #f26376;
-  font-family: Lato;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  background: transparent;
 }
 
 .footer__top {
