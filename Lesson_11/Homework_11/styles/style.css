@@ -190,12 +190,13 @@ a {
 }
 
 .filter {
-  padding: 13px 16px 16px;
+  padding-top: 13px;
   width: 360px;
   position: absolute;
+  background-color: #fff;
 }
 .filter[open] {
-  background-color: white;
+  transition: 0.3s;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 .filter[open] .filter__head {
@@ -208,6 +209,7 @@ a {
   display: flex;
   align-items: center;
   gap: 11px;
+  padding-left: 16px;
 }
 .filter__head {
   color: #000;
@@ -218,7 +220,10 @@ a {
   line-height: normal;
 }
 .filter__content {
-  margin-top: 16px;
+  width: 360px;
+  padding: 0px 16px 16px;
+  background-color: #fff;
+  padding-top: 16px;
   display: flex;
   flex-direction: column;
   gap: 19px;
@@ -251,6 +256,16 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.sort {
+  display: flex;
+  position: absolute;
+  left: 490px;
+  top: 39px;
+}
+.sort__item {
+  display: flex;
 }
 
 .top__content {
