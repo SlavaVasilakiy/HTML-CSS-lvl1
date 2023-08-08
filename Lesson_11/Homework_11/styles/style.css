@@ -219,6 +219,12 @@ a {
 }
 .filter__content {
   margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.filter__item[open] .filter__heading {
+  color: #EF5B70;
 }
 .filter__heading {
   display: flex;
@@ -228,6 +234,9 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 8px 11px 11px 11px;
+  border-bottom: 1px solid #EBEBEB;
+  border-left: 5px solid #EF5B70;
 }
 .filter__link-box {
   display: flex;
