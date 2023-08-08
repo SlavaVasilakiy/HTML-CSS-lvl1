@@ -1,6 +1,6 @@
 .filter-sort {
     display: flex;
-    margin-top: 51px;
+    margin-top: 39px;
     margin-bottom: 64px;
     position: relative;
 } 
@@ -11,6 +11,7 @@
     position: absolute;
 
     &__summary {
+        padding: 13px 0px 0px 0px;
         display: flex;
         align-items: center;
         gap: 11px;

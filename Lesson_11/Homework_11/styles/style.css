@@ -174,7 +174,7 @@ a {
 
 .filter-sort {
   display: flex;
-  margin-top: 51px;
+  margin-top: 39px;
   margin-bottom: 64px;
   position: relative;
 }
@@ -185,6 +185,7 @@ a {
   position: absolute;
 }
 .filter__summary {
+  padding: 13px 0px 0px 0px;
   display: flex;
   align-items: center;
   gap: 11px;
@@ -397,7 +398,7 @@ a {
   font-weight: 300;
   line-height: normal;
 }
-.bott__content__container__box__text__price {
+.bott__content__container__box__price {
   padding-left: 16.46px;
   color: #f16d7f;
   font-family: Lato;
@@ -471,7 +472,6 @@ a {
   justify-content: center;
   text-align: center;
 }
-
 .footer__mid {
   display: flex;
   align-items: center;
@@ -541,7 +541,6 @@ a {
   padding-right: 106px;
   padding-bottom: 32px;
 }
-
 .footer__bott {
   display: flex;
   align-items: center;
