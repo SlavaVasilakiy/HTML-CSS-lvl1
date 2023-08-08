@@ -3,21 +3,70 @@
     margin-top: 39px;
     margin-bottom: 64px;
     position: relative;
-} 
+}
 
 .filter {
+    padding: 13px 16px 16px;
     width: 360px;
-    background-color: #ffff;
     position: absolute;
 
+    &[open] {
+        background-color: #ffff;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    }
+
+    &[open] .filter__head {
+        color: #EF5B70;
+    }
+
+    &[open] path {
+        fill: #EF5B70;
+    }
+
     &__summary {
-        padding: 13px 0px 0px 0px;
         display: flex;
         align-items: center;
         gap: 11px;
     }
+
+    &__head {
+        color: #000;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__content {
+        margin-top: 16px;
+    }
+
+    &__item {}
+
+    &__heading {
+        display: flex;
+        color: #6F6E6E;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__link-box {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        padding: 24px 16px;
+    }
+
+    &__link {
+        color: #6F6E6E;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
-
-
-
-
